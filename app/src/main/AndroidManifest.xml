@@ -9,9 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyKotlinApp">
-        <activity android:name=".ActivityCaledar">
+        <activity android:name=".CapitalActivity"></activity>
+        <activity android:name=".ListviewActivity2" />
+        <activity android:name=".DashboardActvity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity android:name=".ListviewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityCaledar" />
         <activity android:name=".AlertDialogue">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
